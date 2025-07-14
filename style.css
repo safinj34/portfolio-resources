@@ -1,11 +1,71 @@
-nav{font-family: "Open Sans", sans-serif;}
+.b{border: #FD6E0A 1px solid;}
+nav {
+  font-family: "Open Sans", sans-serif;;
+}
+
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
 }
-#yellow{color: #FD6E0A;}
-nav ul li{list-style: none;}
 
-nav{display: flex;justify-content: space-around;}
-.nav-list{display: flex;gap: 0 30px;}
-.ul{display: flex;gap: 0 30px;}
-.hireme-button {height: 40px;margin-top: 7px;background-color: #FD6E0A;color: white;width: 90px;border-radius: 10px;}
+#yellow {
+  color: #FD6E0A !important;
+}
+
+nav ul li {
+  list-style: none;
+
+
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list {
+  display: flex;
+  gap: 0 30px;
+
+}
+
+.ul {
+  display: flex;
+  gap: 0 30px;
+}
+
+.hireme-button {
+  height: 40px;
+  margin-top: 7px;
+  background-color: #FD6E0A;
+  color: white;
+  width: 90px;
+  border-radius: 10px;font-weight: 600;
+}
+
+.content1{display: flex;font-family: "Open Sans", sans-serif;background-image: url(./images/developer.png);background-repeat: no-repeat;background-size: contain;background-image: url(./images/header_bg.png);background-position: right bottom;}
+
+.content{margin: 100px;}
+.my-img{width: 200px;}
+.hi{font-weight: 600;}
+.name{font-weight: 900;font-size: xx-large;}
+.image-div{margin: 100px;}
+.download-button{  height: 30px;
+  margin-top: 7px;
+  background-color: #FD6E0A;
+  color: white;
+  width: 130px;
+  border-radius: 10px;}
+
+  .contact-button-margin{display: flex;margin: 10px;}
+  .contact-button{  margin-top: 7px;
+  background-color: #ffffff;
+  color: #FD6E0A;
+  width: 130px;
+  border-radius: 10px;font-weight: 600;}
+
+  .download-button-margin{margin: 10px;}
+nav ul li a {text-decoration: none;}
+.hireme-button a{text-decoration: none;}
+  
