@@ -188,3 +188,11 @@ nav ul li a {
 .my-education{margin: 10px 50px;}
 .my-edu{margin: 10px 50px;}
 #resume{display: flex;justify-content: center;}
+.last-section-bg{background-color: #FFF8F3;font-family: "Open Sans", sans-serif;}
+.footer{display: flex;}
+.socialmedia-link{margin: 0 50px;padding: 0 100px;}
+.fotter-text{margin: 0 10px;padding: 0 100px;}
+.text-info{width: 300px;border-radius: 5px}
+.text-info1{width: 300px;height: 100px;border-radius: 5px;}
+.fotter-margin{}
+.info{margin: 20px 0;}
