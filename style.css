@@ -1,6 +1,10 @@
-.b{border: #FD6E0A 1px solid;}
+.b {
+  border: #FD6E0A 1px solid;
+}
+
 nav {
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
 }
 
 .open-sans-font {
@@ -41,40 +45,146 @@ nav {
   background-color: #FD6E0A;
   color: white;
   width: 90px;
-  border-radius: 10px;font-weight: 600;
+  border-radius: 10px;
+  font-weight: 600;
 }
 
-.content1{display: flex;font-family: "Open Sans", sans-serif;background-image: url(./images/developer.png);background-repeat: no-repeat;background-size: contain;background-image: url(./images/header_bg.png);background-position: right bottom;}
+.content1 {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(./images/developer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./images/header_bg.png);
+  background-position: right bottom;
+}
 
-.content{margin: 100px;}
-.my-img{width: 100%;}
-.hi{font-weight: 600;}
-.name{font-weight: 900;font-size: xx-large;}
-.image-div{margin: 100px;}
-.download-button{  height: 30px;
+.content {
+  margin: 100px;
+}
+
+.my-img {
+  width: 100%;
+}
+
+.hi {
+  font-weight: 600;
+}
+
+.name {
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.image-div {
+  margin: 100px;
+}
+
+.download-button {
+  height: 30px;
   margin-top: 7px;
   background-color: #FD6E0A;
   color: white;
   width: 130px;
-  border-radius: 10px;}
+  border-radius: 10px;
+}
 
-  .contact-button-margin{display: flex;margin: 10px;}
-  .contact-button{  margin-top: 7px;
+.contact-button-margin {
+  display: flex;
+  margin: 10px;
+}
+
+.contact-button {
+  margin-top: 7px;
   background-color: #ffffff;
   color: #FD6E0A;
   width: 130px;
-  border-radius: 10px;font-weight: 600;}
+  border-radius: 10px;
+  font-weight: 600;
+}
 
-  .download-button-margin{margin: 10px;}
-nav ul li a {text-decoration: none;}
-.hireme-button a{text-decoration: none;}
-.about-me{text-align: center;background-color: white;font-family: "Open Sans", sans-serif;}
-.full-about-me{margin:100px 200px;background-color: white;}
-  .content2{margin: 50px;background-color: #FFF8F3;padding: 10px;}
-  .contact-info{display: flex;justify-content: space-evenly;font-family: "Open Sans", sans-serif;gap: 20px;}
-  .contact-info h1{font-size: small;}
-  .what-i-do-section{text-align: center;margin: 0 100px;}
-  .languages{display:flex;padding: 50px 30px;gap: 50px; }
-  .language{border-radius: 10px;padding: 20px;background-color: white;box-shadow: 2px 2px 20px 2px rgba(0,0,0,0.2);}
-.what-i-do-section{background-color: #FFF8F3;}
-.bg-color-for-section2{background-color: #FFF8F3;margin: 0 100px;}
+.download-button-margin {
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.hireme-button a {
+  text-decoration: none;
+}
+
+.about-me {
+  text-align: center;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.full-about-me {
+  margin: 100px 200px;
+  background-color: white;
+}
+
+.content2 {
+  margin: 50px;
+  background-color: #FFF8F3;
+  padding: 10px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+  gap: 20px;
+}
+
+.contact-info h1 {
+  font-size: small;
+}
+
+.what-i-do-section {
+  text-align: center;
+  margin: 0 100px;
+}
+
+.languages {
+  display: flex;
+  padding: 50px 30px;
+  gap: 50px;
+}
+
+.language {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.2);
+}
+
+.what-i-do-section {
+  background-color: #FFF8F3;
+}
+
+.bg-color-for-section2 {
+  background-color: #FFF8F3;
+  margin: 0 100px;
+}
+
+.my-info {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+
+.download1 {
+  height: 30px;
+  margin-top: 7px;
+  background-color: #FD6E0A;
+  color: white;
+  width: 130px;
+  border-radius: 10px;
+  text-align: center;
+}
+.download-button2{justify-content: center;display: flex;}
+.my-education{margin: 10px 50px;}
+.my-edu{margin: 10px 50px;}
+#resume{display: flex;justify-content: center;}
