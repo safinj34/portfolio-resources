@@ -47,6 +47,7 @@ nav {
   width: 90px;
   border-radius: 10px;
   font-weight: 600;
+  border: none;
 }
 
 .content1 {
@@ -87,11 +88,13 @@ nav {
   color: white;
   width: 130px;
   border-radius: 10px;
+  border: none;
 }
 
 .contact-button-margin {
   display: flex;
   margin: 10px;
+  text-decoration: none;
 }
 
 .contact-button {
@@ -113,6 +116,7 @@ nav ul li a {
 
 .hireme-button a {
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 .about-me {
@@ -183,16 +187,78 @@ nav ul li a {
   width: 130px;
   border-radius: 10px;
   text-align: center;
+  border: none;
 }
-.download-button2{justify-content: center;display: flex;}
-.my-education{margin: 10px 50px;}
-.my-edu{margin: 10px 50px;}
-#resume{display: flex;justify-content: center;}
-.last-section-bg{background-color: #FFF8F3;font-family: "Open Sans", sans-serif;}
-.footer{display: flex;}
-.socialmedia-link{margin: 0 50px;padding: 0 100px;}
-.fotter-text{margin: 0 10px;padding: 0 100px;}
-.text-info{width: 300px;border-radius: 5px}
-.text-info1{width: 300px;height: 100px;border-radius: 5px;}
-.fotter-margin{}
-.info{margin: 20px 0;}
+
+.download-button2 {
+  justify-content: center;
+  display: flex;
+}
+
+.my-education {
+  margin: 10px 50px;
+}
+
+.my-edu {
+  margin: 10px 50px;
+}
+
+#resume {
+  display: flex;
+  justify-content: center;
+}
+
+
+.nav-list li {
+  text-decoration: none;
+}
+
+.nav-list li a {
+  color: black;
+}
+
+.contact-button-margin a {
+  text-decoration: none;
+  color: black;
+}
+
+.download-button:hover {
+  background-color: red;
+}
+
+.contact-button:hover {
+  background-color: red;
+}
+
+.hireme-button:hover {
+  background-color: red;
+}
+
+.download1:hover {
+  background-color: red;
+}
+
+.bg-color-for-section3 {
+  background-color: #FFF8F3;
+}
+
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+input[type="text"], input[type="email"] , footer textarea {
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
