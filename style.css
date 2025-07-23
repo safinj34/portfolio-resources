@@ -242,7 +242,7 @@ nav ul li a {
   background-color: #FFF8F3;
 }
 
-footer {
+footer {margin-top: 100px;
   padding: 130px 230px;
   display: flex;
   gap: 100px;
