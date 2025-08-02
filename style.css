@@ -53,11 +53,10 @@ nav {
 .content1 {
   display: flex;
   font-family: "Open Sans", sans-serif;
-  background-image: url(./images/developer.png);
+  background-image: url(./images/developer.png),url(./images/header_bg.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(./images/header_bg.png);
-  background-position: right bottom;
+  background-position: left center,right bottom,right center;
 }
 
 .content {
@@ -262,3 +261,9 @@ input[type="text"], input[type="email"] , footer textarea {
   margin-bottom: 24px;
   border: none;
 }
+
+@media screen and (max-width:576px){.languages{flex-direction: column;padding: 0%;gap: 0;}.my-info{flex-direction: column;}footer{flex-direction: column;padding: 10%;gap: 10px;}input[type="text"], input[type="email"], footer textarea{width: 70%;}.footer-column{width: 100%;}.what-i-do-section{margin: 30px 0px ;gap: 100px;}.full-about-me{margin: 0px;padding: 30px;}.contact-info{flex-direction: column;}.content1{flex-direction: column;}.image-div {
+  margin: 15px;
+}.content {
+  margin: 50px;
+}.language{margin: 20px;}.content1{background-image: none;}}
