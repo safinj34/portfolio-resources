@@ -266,4 +266,11 @@ input[type="text"], input[type="email"] , footer textarea {
   margin: 15px;
 }.content {
   margin: 50px;
-}.language{margin: 20px;}.content1{background-image: none;}}
+}.language{margin: 20px;}.content1{background-image: none;}.bg-color-for-section2 {
+  background-color: #FFF8F3;
+  margin: 0 10px;
+}.contact-button-margin {
+ 
+  margin: 0px;
+
+}}
